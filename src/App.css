@@ -1,0 +1,109 @@
+/* Colors
+  #e5dfdf
+  #6ba8a9
+  #357376
+  #1d4d4f
+*/
+
+html {
+  background-color: #357376;
+  min-height: 100%;
+  height: 100%;
+  width: 100%;
+}
+body{
+  min-height: 100%;
+}
+h1{
+  color: #1d4d4f;
+  background-color: #6ba8a9;
+  border: 5px solid #1d4d4f;
+}
+h2, h3, p {
+  margin: 5px;
+}
+h2{
+  color: #1d4d4f;
+  font-size: medium;
+}
+h3{
+  margin: 0px;
+}
+
+.App {
+  text-align: center;
+  height: 90%;
+  width: 100%;
+}
+.App:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  height: 900px;
+}
+
+.App-header {
+  background-color: #1d4d4f;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.artistScroller, .eventScroller{
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: #1d4d4f;
+}
+
+.eventScroller {
+  float:right;
+}
+.artistScroller img, .eventScroller img{
+  object-fit: cover;
+  width: 100px;
+  height: 100px;
+}
+.favArtist{
+  margin: 3px;
+  font-size: 2em;
+  background-color: #1d4d4f;
+  color: #6ba8a9;
+  border: 2px solid #e5dfdf;
+}
+.Header{
+  background-color: #1d4d4f;
+  margin: 0;
+}
+.buttons{
+  background-color: #e5dfdf;
+  border: 1em solid #1d4d4f;
+  width: 202px;
+  color: #1d4d4f;
+}
+.LoggedIn{
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  width: 33.3%;
+}
+
+.fav{
+  color: #e5dfdf;
+}
+.title{
+  margin-bottom: 0;
+  color: #e5dfdf;
+}
+img{
+  margin-top: 5px;
+}
